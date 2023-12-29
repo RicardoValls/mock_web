@@ -1,0 +1,196 @@
+/*Inicio de la Cabecera*/
+#cabecera {
+	height: 200px;
+	padding: 12px;
+	background-color: red;
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+	.logo{
+		height: 200px;
+		width: 200px;
+		background-color: tomato;
+	}
+	#nombre{
+		height: 25%;
+		width: 60%;
+		background-color: orange;
+	}
+	#cita{
+		height: 60%;
+		width: 68%;
+		margin: auto 0;
+		background-color: pink;
+	}
+	#idioma{
+		width: 200px;
+		height: 200px;
+		background-color: crimson;
+	}
+/*Fin Cabecera*/
+
+/*Inicio del Menú*/
+#menu {
+	background-color: black;
+	padding: 1%;
+	margin: 1% 0 1%;
+
+	overflow: hidden;
+}
+/*Fin Menú*/
+
+/*Inicio del Cuerpo*/
+#cuerpo{
+	display: flex;
+	flex-direction: row;
+}
+	/*Barra Izquierda*/
+	#izquierda{
+		width: 30%;
+		background-color: green;
+	}
+		#productos{
+			max-height: 600px;
+			padding: 1%;
+			background-color: cyan;
+
+			overflow: auto;
+		}
+		#relacion{
+			padding: 1%;
+			background-color: dodgerblue;
+
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+	/*fin del lado izquierdo*/
+
+	/*Lado derecho*/
+	#derecha{
+		width: 70%;
+		padding: 1%;
+		background-color: green;
+
+		overflow: auto;
+	}
+		#venta{
+			background-color: seagreen;
+
+			display: flex;
+			flex-direction: column;
+		}
+			#venta_texto{
+				height: 100px;
+				width: 100%;
+				background-color: springgreen;
+			}
+			#venta_img{
+				height: 400px;
+				margin: 1%;
+				background-color: mediumseagreen;
+
+				overflow: auto;
+
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+			}
+		#detalle{
+			height: 48%;
+			width: 70%;
+			background-color:  olivedrab;
+
+			float: left;
+		}
+		#factura{
+			height: 48%;
+			width: 28%;
+			background-color:  yellowgreen;
+
+			float: right
+		}
+
+	/*fin derecho*/
+
+/*Fin Cuerpo*/
+
+/*Inicio Pie*/
+#pie{
+	padding: 2%;
+	background-color: deeppink;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+	.pie_info{
+		min-height: 150px;
+		width: 20%;
+		background-color: mediumorchid;
+	}
+	#pie_grupo{
+		width: 46%;
+		background-color: orchid;
+
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: center;
+	}
+		.redes{
+			height: 120px;
+			width: 120px;
+			background-color: plum;
+		}
+		.logo_peq{
+			height: 120px;
+			width: 120px;
+			background-color: tomato;
+		}
+/*Fin Pie*/
+
+/* Clases que se repiten*/
+
+/*botones*/
+.boton{
+	padding: 10px 16px;
+	margin: 2px 3px;
+	background-color: white;
+
+	float: left;
+}
+
+.boton_derecho{
+	padding: 10px 16px;
+	margin: 2px 3px;
+	background-color: white;
+	float: right;
+}
+/* fin de botones*/
+
+/*divs que representan imágenes*/
+.foto{
+	height: 200px;
+	width: 300px;
+	margin: 4% auto;
+	background-color: slategrey;
+
+}
+
+.foto_detalle{
+	height: 150px;
+	width: 150px;
+	margin: 4% auto;
+	background-color: slategrey;
+
+}
+/*fin imágenes*/
