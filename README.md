@@ -1,2 +1,2 @@
 # mock_web
-Composing web exercice
+Web-portal composition exercise
